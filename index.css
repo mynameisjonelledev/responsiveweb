@@ -1,0 +1,245 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+button, div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.container {
+    width: 100%;
+    margin-top: 10%; /* Need to edit this pa */
+    
+}
+
+.top-div {
+    background-color: lightblue;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    color: black;
+    display: flex;
+    margin-bottom: 17px;
+}
+
+
+.top-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 0px;
+}
+
+.top-button-cat,.top-button {
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.top-button-cat {
+    display: flex;
+    align-items: center;
+}
+
+.top-button-cat:hover {
+    cursor: pointer;
+}
+
+.top-button-1 {
+    background-color: rgb(104, 189, 104);
+    border: none;
+    color: white;
+    transition: background-color 0.15s;
+    border-radius: 5px;
+}
+
+.top-button-1:hover {
+    background-color: rgb(157, 218, 157);
+    color: black;
+    cursor: pointer;
+}
+
+.top-button-2, .top-button-3 {
+    border: none;
+    background-color: white;
+    transition: background-color 0.15s, color 0.15s;
+    border-radius: 5px;
+}
+
+.top-button-2:hover, .top-button-3:hover {
+    background-color: rgb(104, 189, 104);
+    cursor: pointer;
+    color: white;
+}
+
+.top-button5 {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    background-color: white;
+    border: 1px solid black;
+}
+
+.top-button5:hover {
+    cursor: pointer;
+}
+
+.topic-container {
+    margin-top: 30px;
+    color: gray;
+}
+
+.topic-div-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    gap: 20px;
+}
+
+.topic-space {
+    width: 800px;
+}
+
+.topic-rep:hover {
+    background-color: lightgray;
+}
+
+.topic-topic, .topic-rep {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+.topic-line {
+    border-bottom: 1px solid lightgray;
+}
+
+.topics-lists-container {
+    margin-top: 20px;
+}
+
+.topics-lists-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.topics-descriptions-main-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.topics-desc {
+    width: 530px; /*TO BE EDIT*/
+    color: rgb(41, 37, 37);
+}
+
+.topic-author-img {
+    border-radius: 10px;
+}
+
+.topic-author-con {
+    width: 150px;
+    margin-right: 40px;
+    
+}
+
+.topics-reps, .topics-views, .topics-act {
+    width: 5%;
+    gap: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topics-reps {
+    margin-left: -20px;
+    color: gray;
+}
+
+.topics-views {
+    margin-left: 20px;
+    color: orange;
+}
+
+.topics-act {
+    margin-left: 17px;
+    color: gray;
+}
+
+.topics-lists-div-container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.topics-desc-highlight {
+    background-color: #12263A;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    
+    font-size: 12px;
+}
+
+.topics-desc-space {
+    width: 350px;
+    
+}
+
+.topics-desc-highlight-ph {
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    background-color: #FF785A;
+    
+    font-size: 12px;
+}
+
+.topics-desc-space-ph {
+    width: 412px;
+    
+}
+
+.footer-main-container {
+   margin-top: 50px;
+}
+
+.footer-text {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+
+.footer-heart {
+    color: red;
+}
+
+.farewell-text {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer {
+    margin-bottom: -50px;
+}
